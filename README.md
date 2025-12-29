@@ -78,7 +78,7 @@ Dashboard Web → MQTT Broker → ESP32 → Relay → Perangkat
 
 ### **Pin Configuration:**
 
-## ESP32-WROOM-32U:
+ESP32-WROOM-32U:
 ├── BH1750:
 │ ├── VCC → 3.3V
 │ ├── GND → GND
