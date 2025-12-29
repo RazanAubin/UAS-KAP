@@ -61,8 +61,6 @@ Dashboard Web → MQTT Broker → ESP32 → Relay → Perangkat
 
 ## c. Gambar Rangkaian (Wiring Diagram)
 
-> 📌 Simpan gambar wiring di folder `/assets`
-
 
 ### **Konfigurasi Pin ESP32**
 
