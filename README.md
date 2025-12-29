@@ -63,7 +63,6 @@ Dashboard Web → MQTT Broker → ESP32 → Relay → Perangkat
 
 > 📌 Simpan gambar wiring di folder `/assets`
 
-![Wiring Diagram ESP32](assets/wiring-diagram.png)
 
 ### **Konfigurasi Pin ESP32**
 
@@ -90,7 +89,6 @@ Dashboard Web → MQTT Broker → ESP32 → Relay → Perangkat
 
 ## d. Gambar Arsitektur Aplikasi & Jaringan Komputer
 
-![System Architecture](assets/system-architecture.png)
 
 **Penjelasan Arsitektur:**
 - ESP32 terhubung ke jaringan WiFi (STA Mode)
@@ -135,6 +133,20 @@ Dashboard Web → MQTT Broker → ESP32 → Relay → Perangkat
   "timestamp": "2024-01-15T14:30:00Z"
 }
 ```
+## f. Cara Pengoperasian dan Pengujian
+
+### **Pengoperasian**
+- Hubungkan ESP32 ke WiFi
+- Jalankan MQTT Broker
+- Buka dashboard web
+- Pantau data sensor secara real-time
+- Kontrol perangkat melalui dashboard
+
+### **Pengujian**
+- Uji sensor PIR dengan gerakan
+- Tutup sensor BH1750 untuk perubahan lux
+- Kirim payload ON/OFF via MQTT Explorer
+- Pastikan relay bekerja sesuai perintah
 
 Dashboard
 ![eab546a5-4f8b-4c11-9503-a2fd39880faf](https://github.com/user-attachments/assets/74c33d86-7a6d-4e5c-85d3-e357f8054960)
